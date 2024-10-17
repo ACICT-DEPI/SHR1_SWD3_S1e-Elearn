@@ -32,11 +32,16 @@
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ],
             "budgets": [
-            {
-              "type": "initial",
-              "maximumWarning": "800kb",
-              "maximumError": "900kb"
-            }
+              {
+                "type": "initial",
+                "maximumWarning": "800kb",  
+                "maximumError": "900kb"     
+              },
+              {
+                "type": "anyComponentStyle",
+                "maximumWarning": "8kb",
+                "maximumError": "10kb"
+              }
           ]
           },
           "configurations": {
